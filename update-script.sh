@@ -4,3 +4,4 @@ wget -O /usr/bin/webmin https://raw.githubusercontent.com/Mahfud2128/mini/main/w
 wget -O /usr/bin/cek-ws https://raw.githubusercontent.com/Mahfud2128/mini/main/xray/cek-ws.sh && chmod +x /usr/bin/cek-ws
 serverV=$( curl -sS https://raw.githubusercontent.com/Mahfud2128/access/main/versi  )
 echo $serverV > /opt/.ver
+echo "Update Selesai"
