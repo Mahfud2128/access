@@ -6,6 +6,7 @@ wget -O /usr/bin/menu https://raw.githubusercontent.com/Mahfud2128/mini/main/men
 wget -q -O /usr/bin/limit-speed "https://raw.githubusercontent.com/Mahfud2128/mini/main/limit-speed.sh" && chmod +x /usr/bin/limit-speed
 wget -q -O /usr/bin/autokill "https://raw.githubusercontent.com/Mahfud2128/mini/main/autokill.sh" && chmod +x /usr/bin/autokill
 wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/Mahfud2128/mini/main/tendang.sh" && chmod +x /usr/bin/tendang
+wget -q -O /etc/nginx/conf.d/vps.conf https://raw.githubusercontent.com/Mahfud2128/mamam/main/vps.conf
 serverV=$( curl -sS https://raw.githubusercontent.com/Mahfud2128/access/main/versi  )
 echo $serverV > /opt/.ver
 echo "Update Selesai"
